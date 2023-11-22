@@ -57,7 +57,7 @@ section{
 header{
     position: fixed;
     width: 100%;
-    top:0;
+    top:10;
     right: 0;
     z-index: 1000;
     display: flex;
@@ -90,7 +90,7 @@ color: var(--main-color);
 }
 .navbar a{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-color);
 }
 /* mygtuku spalvos */
@@ -106,8 +106,8 @@ color: var(--main-color);
     display: none;
 }
 .search-box{
-    position: absolute;
-    top: 110%;
+    position: absolute ;
+    top: 120%;
     right: -100%;
 }
 .search-box input{
@@ -115,7 +115,7 @@ color: var(--main-color);
     border: none;
     outline: none;
     border-radius: 0.5rem;
-    width: 280px;
+    width: 480px;
     box-shadow: var(--box-shadow);
 }
 .search-box.active{
@@ -124,7 +124,7 @@ color: var(--main-color);
 }
 .cart{
     position: absolute;
-    top: 110%;
+    top: 100%;
     right: -100%;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@ transition: 0.2s;
     grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
     align-items: center;
     gap: 1.5rem;
-    background: var(--second-color);
+    background: var(--bg-color);
 }
 .home-text span{
     font-weight: 600;
@@ -255,8 +255,8 @@ transition: 0.2s;
 }
 .new-arrival .box img {
     background: var(--second-color);
-    width: 100%;
-    height: 100%;
+    width: 0%;
+    height:80%;
     object-fit: cover;
 }
 .new-arrival .box .content{
@@ -420,7 +420,6 @@ margin-bottom: 1rem;
 }
 .contact-form .send-button:hover{
     padding: 0.7rem 1.2rem;
-    background:grey;
     color: var(--text-color);
     font-weight: 500;
     display: inline-block;
